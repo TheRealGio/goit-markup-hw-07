@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/main.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,76 +26,73 @@
   </head>
 
   <body>
-    <header class="header-line">
-      <div class="header container">
-        <nav class="navbar">
-          <a href="index.html" class="logo link">WebStudio</a>
-          <ul class="nav-list list">
-            <li class="nav-list-items">
-              <a href="index.html" class="nav-items link">Studio</a>
-            </li>
-            <li class="nav-list-items">
-              <a href="portfolio.html" class="nav-items current-link link">Portfolio</a>
-            </li>
-            <li class="nav-list-items">
-              <a href="#" class="nav-items link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="navbar-contacts list">
-          <li class="navbar-contacts-items">
-            <a
-              href="mailto:info@devstudio.com"
-              class="contact-information link"
-            >
-              <svg class="svg-nav-styling" width="16" height="16">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>
-              info@devstudio.com
-            </a>
+  <header class="header">
+    <div class="header__wrapper container">
+      <nav class="header__navbar">
+        <a href="index.html" class="header__logo link">WebStudio</a>
+        <ul class="header__nav-list list">
+          <li class="header__nav-list-items">
+            <a href="index.html" class="header__nav-items  link">Studio</a>
           </li>
-          <li class="navbar-contacts-items">
-            <a href="tel:+380961111111" class="contact-information link">
-              <svg class="svg-nav-styling" width="16" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
+          <li class="header__nav-list-items">
+            <a href="portfolio.html" class="header__nav-items header__nav-items--current-link link">Portfolio</a>
+          </li>
+          <li class="header__nav-list-items">
+            <a href="#" class="header__nav-items link">Contacts</a>
           </li>
         </ul>
-      </div>
-    </header>
+      </nav>
+      <ul class="header__navbar-contacts list">
+        <li class="header__navbar-contacts-items">
+          <a href="mailto:info@devstudio.com" class="header__contact-information link">
+            <svg class="header__svg-nav-styling" width="16" height="16">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+        </li>
+        <li class="header__navbar-contacts-items">
+          <a href="tel:+380961111111" class="header__contact-information link">
+            <svg class="header__svg-nav-styling" width="16" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11</a
+          >
+        </li>
+      </ul>
+    </div>
+  </header>
     <main>
       <section class="section">
         <div class="container">
           <ul class="filter-menu list">
-            <li class="filter-menu-items">
-              <button type="button" class="filter-current filter-menu-buttons">
+            <li class="filter-menu__items">
+              <button type="button" class="filter-current filter-menu__buttons">
                 All
               </button>
             </li>
-            <li class="filter-menu-items">
-              <button type="button" class="filter-menu-buttons">
+            <li class="filter-menu__items">
+              <button type="button" class="filter-menu__buttons">
                 Web-sites
               </button>
             </li>
-            <li class="filter-menu-items">
-              <button type="button" class="filter-menu-buttons">Apps</button>
+            <li class="filter-menu__items">
+              <button type="button" class="filter-menu__buttons">Apps</button>
             </li>
-            <li class="filter-menu-items">
-              <button type="button" class="filter-menu-buttons">Design</button>
-              </li class="filter-menu-items">
-                <button type="button" class="filter-menu-buttons">
+            <li class="filter-menu__items">
+              <button type="button" class="filter-menu__buttons">Design</button>
+              </li class="filter-menu__items">
+                <button type="button" class="filter-menu__buttons">
                   Marketing
                 </button>
             </li>
           </ul>
 
-          <ul class="portfolio-showcase-pictures list">
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+          <ul class="portfolio-showcase list">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
                   </div>
                 </div>
@@ -105,16 +102,16 @@
                 height="294"
                 alt="An image of a laptop with a website open on it"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">Technoduck</h3>
-                <p class="project-wrapper-text">Web-site</p>
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">Technoduck</h3>
+                <p class="portfolio-showcase__project-wrapper-text">Web-site</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -124,18 +121,18 @@
                 height="294"
                 alt="An image of Steph Curry blocking Herbet Jone's shot"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">
                   Poster New Orlean vs Golden Star
                 </h3>
-                <p class="project-wrapper-text">Design</p>
+                <p class="portfolio-showcase__project-wrapper-text">Design</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -145,16 +142,16 @@
                 height="294"
                 alt="An image of a poster for a seafood restaurant with a Shark on it"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">Seafood Restaurant</h3>
-                <p class="project-wrapper-text">Apps</p>
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">Seafood Restaurant</h3>
+                <p class="portfolio-showcase__project-wrapper-text">Apps</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -164,16 +161,16 @@
                 height="294"
                 alt="An image of a black pair of headphones with a white background"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">Project Prime</h3>
-                <p class="project-wrapper-text">Marketing</p>
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">Project Prime</h3>
+                <p class="portfolio-showcase__project-wrapper-text">Marketing</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -183,16 +180,16 @@
                 height="294"
                 alt="A picture of a white box and a redish/pink box"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">Project Boxes</h3>
-                <p class="project-wrapper-text">Apps</p>
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">Project Boxes</h3>
+                <p class="portfolio-showcase__project-wrapper-text">Apps</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -202,18 +199,18 @@
                 height="294"
                 alt="Picture of Computer screen"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">
                   Inspiration has no Borders
                 </h3>
-                <p class="project-wrapper-text">Web-site</p>
+                <p class="portfolio-showcase__project-wrapper-text">Web-site</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -223,16 +220,16 @@
                 height="294"
                 alt="Picture of a book with the words limited edition printed on it"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">Limited Edition</h3>
-                <p class="project-wrapper-text">Design</p>
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">Limited Edition</h3>
+                <p class="portfolio-showcase__project-wrapper-text">Design</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -242,16 +239,16 @@
                 height="294"
                 alt="Picture of A Label with the words Label Tag written on it"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">Project LAB</h3>
-                <p class="project-wrapper-text">Marketing</p>
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">Project LAB</h3>
+                <p class="portfolio-showcase__project-wrapper-text">Marketing</p>
               </div>
               </a>
             </li>
-            <li class="project-card">
-              <a href="#" class="project-card-link link">
-                <div class="overlay">
-                  <div class="info-overlay">
+            <li class="portfolio-showcase__project-card">
+              <a href="#" class="portfolio-showcase__project-card-link link">
+                <div class="portfolio-showcase__project-card-link--overlay">
+                  <div class="portfolio-showcase__info-overlay">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolorem suscipit itaque facilis expedita quis doloribus tenetur ipsam nostrum quod!
                   </div>
                 </div>
@@ -261,9 +258,9 @@
                 height="294"
                 alt="A picture of someone working on a laptop"
               />
-              <div class="project-wrapper">
-                <h3 class="project-wrapper-title">Growing Business</h3>
-                <p class="project-wrapper-text">Apps</p>
+              <div class="portfolio-showcase__project-wrapper">
+                <h3 class="portfolio-showcase__project-wrapper-title">Growing Business</h3>
+                <p class="portfolio-showcase__project-wrapper-text">Apps</p>
               </div>
               </a>
             </li>
@@ -271,55 +268,55 @@
         </div>
       </section>
     </main>
- <footer class="footer-style">
-    <div class="container footer-content-dividing">
-      <div class="footer-contact-info">
-      <a href="index.html" class="logo link footer-logo">WebStudio</a>
+ <footer class="footer">
+    <div class="container footer__content-dividing">
+      <div class="footer__contact-info">
+      <a href="index.html" class="logo link footer__logo">WebStudio</a>
       <address>
         <ul class="list">
-          <li class="address-bar-items">
-            <a href="#" class="link"
+          <li>
+            <a href="#" class="link footer__address-bar-links"
               >695 Park Ave, New York, NY 10065,<br />
               United States</a
             >
           </li>
-          <li class="address-bar-items">
-            <a href="mailto:info@devstudio.com" class="link"
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer__address-bar-links link"
               >info@devstudio.com</a
             >
           </li>
-          <li class="address-bar-items">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          <li>
+            <a href="tel:+380961111111" class="footer__address-bar-links link">+38 096 111 11 11</a>
           </li>
         </ul>
         </div>
-        <div class="social-media-container">
-          <p class="social-media-footer-title">FIND US ON</p>
-          <ul class="social-media-footer list">
-              <li class="social-media-icon footer-social-media">
-                <a href="#" class="footer-social-media-links link">
-                  <svg width="20" height="20" class="social-media-icon-svg">
+        <div class="social-media__container">
+          <p class="footer__title">FIND US ON</p>
+          <ul class="social-media__footer list">
+              <li class="social-media__icon">
+                <a href="#" class="social-media__links--footer link">
+                  <svg width="20" height="20" class="social-media__icon-svg">
                     <use href="images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-media-icon footer-social-media">
-                <a href="#" class="footer-social-media-links link">
-                  <svg width="20" height="20" class="social-media-icon-svg">
+              <li class="social-media__icon">
+                <a href="#" class="social-media__links--footer link">
+                  <svg width="20" height="20" class="social-media__icon-svg">
                     <use href="images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-media-icon footer-social-media">
-                <a href="#" class="footer-social-media-links link">
-                  <svg width="20" height="20" class="social-media-icon-svg">
+              <li class="social-media__icon">
+                <a href="#" class="social-media__links--footer link">
+                  <svg width="20" height="20" class="social-media__icon-svg">
                     <use href="images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="social-media-icon footer-social-media">
-                <a href="#" class="footer-social-media-links link">
-                  <svg width="20" height="20" class="social-media-icon-svg">
+              <li class="social-media__icon">
+                <a href="#" class="social-media__links--footer link">
+                  <svg width="20" height="20" class="social-media__icon-svg">
                     <use href="images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -329,11 +326,11 @@
           </ul>
         </div>
       </address>
-      <div class="newsletter-section">
-        <p class="social-media-footer-title">SUBSCRIBE TO THE NEWSLETTER</p>
+      <div class="footer__newsletter">
+        <p class="footer__title">SUBSCRIBE TO THE NEWSLETTER</p>
         <form>
-          <input type="email" name="newsletter email" placeholder="E-mail" class="newsletter-input-styling"/>
-          <button type="submit" class="newsletter-button">
+          <input type="email" name="newsletter email" placeholder="E-mail" class="footer__newsletter-input-styling"/>
+          <button type="submit" class="footer__newsletter-button">
             Subscribe
             <svg width="24" height="24">
               <use href="./images/icons.svg#icon-send">
