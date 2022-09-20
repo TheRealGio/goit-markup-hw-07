@@ -106,7 +106,7 @@ address {
   padding: 200px 0;
   background-color: var(--dark-blue);
   text-align: center; /** Centering The Button not sure if correct **/
-  background: url(../../images/Img.png) 0 0 no-repeat;
+  background: url(../images/Img.png) 0 0 no-repeat;
   overflow: hidden;
   z-index: 2;
 }
