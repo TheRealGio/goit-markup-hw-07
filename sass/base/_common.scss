@@ -45,19 +45,3 @@ address {
   padding: 0;
   margin: 0;
 }
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.section {
-  padding: 94px 0;
-  &--no-top-padding {
-    padding-top: 0px;
-  }
-  &--team {
-    background-color: $off-white;
-  }
-}

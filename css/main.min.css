@@ -1,3 +1,14 @@
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .header__contact-information, .header__nav-items, .footer__newsletter-button, .footer__newsletter-input-styling, .footer__address-bar-links, .filters__button, .call-to-action-area__request-service-button {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.header__logo, .footer__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
+}
+
 body {
   font-family: "Roboto";
   margin: 0 auto;
@@ -50,6 +61,17 @@ address {
   padding: 0 15px;
 }
 
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .header__contact-information, .header__nav-items, .footer__newsletter-button, .footer__newsletter-input-styling, .footer__address-bar-links, .filters__button, .call-to-action-area__request-service-button {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.header__logo, .footer__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
+}
+
 .section {
   padding: 94px 0;
 }
@@ -58,6 +80,17 @@ address {
 }
 .section--team {
   background-color: #f5f4fa;
+}
+
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .header__contact-information, .header__nav-items, .footer__newsletter-button, .footer__newsletter-input-styling, .footer__address-bar-links, .filters__button, .call-to-action-area__request-service-button {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.header__logo, .footer__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
 }
 
 .benefits {
@@ -95,9 +128,15 @@ address {
   letter-spacing: 0.03em;
 }
 
-.call-to-action-area__request-service-button {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .header__contact-information, .header__nav-items, .footer__newsletter-button, .footer__newsletter-input-styling, .footer__address-bar-links, .filters__button, .call-to-action-area__request-service-button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+}
+
+.header__logo, .footer__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
 }
 
 .call-to-action-area {
@@ -142,21 +181,27 @@ address {
   top: 0;
 }
 
-.filter-menu__buttons {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .header__contact-information, .header__nav-items, .footer__newsletter-button, .footer__newsletter-input-styling, .footer__address-bar-links, .filters__button, .call-to-action-area__request-service-button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.filter-menu {
+.header__logo, .footer__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
+}
+
+.filters {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 50px;
 }
-.filter-menu__items:not(:last-child) {
+.filters__items:not(:last-child) {
   margin-right: 8px;
 }
-.filter-menu__buttons {
+.filters__button {
   cursor: pointer;
   padding: 6px 26px;
   color: #212121;
@@ -168,23 +213,23 @@ address {
   font-size: 16px;
   line-height: 26px;
 }
-.filter-menu__buttons:focus, .filter-menu__buttons:hover {
+.filters__button:focus, .filters__button:hover {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.filter-menu--filter-current {
+.filters--filter-current {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.footer__newsletter-button, .footer__newsletter-input-styling, .footer__address-bar-links {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .header__contact-information, .header__nav-items, .footer__newsletter-button, .footer__newsletter-input-styling, .footer__address-bar-links, .call-to-action-area__request-service-button, .filters__button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.footer__logo {
+.header__logo, .footer__logo {
   font-family: "Raleway";
   font-size: 26px;
   color: #2196f3;
@@ -259,12 +304,12 @@ address {
   background-color: #188ce8;
 }
 
-.header__contact-information, .header__nav-items {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .header__contact-information, .header__nav-items, .call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.header__logo {
+.header__logo, .footer__logo {
   font-family: "Raleway";
   font-size: 26px;
   color: #2196f3;
@@ -341,9 +386,15 @@ address {
   margin-right: 10px;
 }
 
-.modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .modal__label-input, .modal__send-button, .modal__checkbox-svg, .modal__comment, .modal__input-icon, .modal__close-btn, .modal__body, .modal, .call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button, .header__nav-items, .header__contact-information {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+}
+
+.footer__logo, .header__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
 }
 
 .modal {
@@ -544,57 +595,60 @@ address {
   fill: #212121;
 }
 
-.our-team__social-media-links {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .team__social-media-links, .call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button, .header__nav-items, .header__contact-information, .modal, .modal__body, .modal__close-btn, .modal__input-icon, .modal__comment, .modal__checkbox-svg, .modal__send-button, .modal__label-input {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.our-team {
-  background-color: #f5f4fa;
+.footer__logo, .header__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
 }
-.our-team__header {
+
+.team {
+  display: flex;
+  justify-content: center;
+}
+.team__header {
   color: #212121;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
 }
-.our-team__cards {
-  display: flex;
-  justify-content: center;
-}
-.our-team__member-card {
+.team__item {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   padding-bottom: 30px;
 }
-.our-team__member-card:not(:last-child) {
+.team__item:not(:last-child) {
   margin-right: 30px;
 }
-.our-team__member-card-images {
+.team__image {
   margin-bottom: 30px;
 }
-.our-team__member-name {
+.team__name {
   font-weight: 500;
   color: #212121;
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 10px;
 }
-.our-team__member-role {
+.team__description {
   color: #757575;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 }
-.our-team__social-media-buttons {
+.team__social-media-buttons {
   margin-top: 16px;
   display: flex;
   justify-content: center;
 }
-.our-team__social-media-links {
+.team__social-media-links {
   color: #afb1bb;
   display: flex;
   align-items: center;
@@ -606,9 +660,15 @@ address {
   height: 44px;
 }
 
-.regular-customer {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .regular-customer, .call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button, .header__nav-items, .header__contact-information, .modal, .modal__body, .modal__close-btn, .modal__input-icon, .modal__comment, .modal__checkbox-svg, .modal__send-button, .modal__label-input, .team__social-media-links {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+}
+
+.footer__logo, .header__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
 }
 
 .regular-customer {
@@ -646,9 +706,15 @@ address {
   justify-content: center;
 }
 
-.social-media__links--footer, .social-media__links {
+.projects__link--overlay, .projects__link, .social-media__links--footer, .social-media__links, .call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button, .header__nav-items, .header__contact-information, .modal, .modal__body, .modal__close-btn, .modal__input-icon, .modal__comment, .modal__checkbox-svg, .modal__send-button, .modal__label-input, .team__social-media-links, .regular-customer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+}
+
+.footer__logo, .header__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
 }
 
 .social-media__links--footer, .social-media__links {
@@ -695,6 +761,17 @@ address {
   display: flex;
 }
 
+.projects__link--overlay, .projects__link, .call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button, .header__nav-items, .header__contact-information, .modal, .modal__body, .modal__close-btn, .modal__input-icon, .modal__comment, .modal__checkbox-svg, .modal__send-button, .modal__label-input, .team__social-media-links, .regular-customer, .social-media__links, .social-media__links--footer {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.footer__logo, .header__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
+}
+
 .what-we-do {
   display: flex;
   flex-direction: column;
@@ -732,35 +809,41 @@ address {
   justify-content: center;
 }
 
-.portfolio-showcase__project-card-link--overlay, .portfolio-showcase__project-card-link {
+.projects__link--overlay, .projects__link, .call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button, .header__nav-items, .header__contact-information, .modal, .modal__body, .modal__close-btn, .modal__input-icon, .modal__comment, .modal__checkbox-svg, .modal__send-button, .modal__label-input, .team__social-media-links, .regular-customer, .social-media__links, .social-media__links--footer {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
 
-.portfolio-showcase {
+.footer__logo, .header__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
+}
+
+.projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
-.portfolio-showcase__project-card {
+.projects__item {
   cursor: pointer;
   position: relative;
   margin-top: 30px;
   margin-left: 30px;
 }
-.portfolio-showcase__project-card-link {
+.projects__link {
   display: block;
   transition-property: box-shadow;
 }
-.portfolio-showcase__project-card-link:hover, .portfolio-showcase__project-card-link:focus {
+.projects__link:hover, .projects__link:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
 }
-.portfolio-showcase__project-card-link:focus .portfolio-showcase__project-card-link--overlay, .portfolio-showcase__project-card-link:hover .portfolio-showcase__project-card-link--overlay {
+.projects__link:focus .projects__link--overlay, .projects__link:hover .projects__link--overlay {
   height: 294px;
 }
-.portfolio-showcase__project-card-link--overlay {
+.projects__link--overlay {
   position: absolute;
   overflow: hidden;
   height: 0px;
@@ -769,7 +852,7 @@ address {
   transition-property: height, z-index;
   bottom: 106px;
 }
-.portfolio-showcase__info-overlay {
+.projects__info-overlay {
   width: 100%;
   height: 294px;
   padding: 77px 24px;
@@ -780,22 +863,33 @@ address {
   color: white;
   background-color: rgba(33, 150, 243, 0.9);
 }
-.portfolio-showcase__project-wrapper {
+.projects__wrapper {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
-.portfolio-showcase__project-wrapper-title {
+.projects__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
 }
-.portfolio-showcase__project-wrapper-text {
+.projects__description {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.call-to-action-area__request-service-button, .filters__button, .footer__address-bar-links, .footer__newsletter-input-styling, .footer__newsletter-button, .header__nav-items, .header__contact-information, .modal, .modal__body, .modal__close-btn, .modal__input-icon, .modal__comment, .modal__checkbox-svg, .modal__send-button, .modal__label-input, .team__social-media-links, .regular-customer, .social-media__links, .social-media__links--footer, .projects__link, .projects__link--overlay {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+.footer__logo, .header__logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  color: #2196f3;
 }/*# sourceMappingURL=main.css.map */

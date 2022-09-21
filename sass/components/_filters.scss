@@ -1,6 +1,6 @@
 @import "../utils/variables";
 
-.filter-menu {
+.filters {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,7 +8,7 @@
   &__items:not(:last-child) {
     margin-right: 8px;
   }
-  &__buttons {
+  &__button {
     @extend %transition-properties;
     cursor: pointer;
     padding: 6px 26px;

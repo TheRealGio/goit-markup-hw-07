@@ -1,18 +1,18 @@
 @import "../utils/variables";
 
-.portfolio-showcase {
+.projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  &__project-card {
+  &__item {
     cursor: pointer;
     position: relative;
     margin-top: 30px;
     margin-left: 30px;
   }
-  &__project-card-link {
+  &__link {
     @extend %transition-properties;
     display: block;
     transition-property: box-shadow;
@@ -47,19 +47,19 @@
     color: white;
     background-color: $info-overlay-blue;
   }
-  &__project-wrapper {
+  &__wrapper {
     padding: 20px 24px;
     border: 1px solid $card-border-white;
     border-top: none;
   }
-  &__project-wrapper-title {
+  &__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: $black;
   }
-  &__project-wrapper-text {
+  &__description {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
